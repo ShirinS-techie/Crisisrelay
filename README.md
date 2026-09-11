@@ -36,17 +36,26 @@ All three share one dashboard, switchable instantly, so the same demo (or the sa
 
 ## 2. Screenshots
 
-| View | Screenshot |
-|---|---|
-| Main dashboard — map + live SOS feed (Citizen view) | `dashboard-citizen.png` |
-| Broadcast SOS modal, with risk score result | `sos-modal-scored.png` |
-| Volunteer view — claim / resolve flow | `volunteer-feed.png` |
-| Coordinator aggregate stats dashboard | `coordinator-stats.png` |
-| Triage decision tree + survival checklist | `triage-tab.png` |
-| Offer Help | `Offer-help.png` |
-| Low-bandwidth / battery-saver mode | `low-bandwidth-mode.png` |
+### Main dashboard — map + live SOS feed (Citizen view)
+![Main dashboard, Citizen view](dashboard-citizen.png)
 
----
+### Broadcast SOS modal, with risk score result
+![SOS modal with risk score](sos-modal-scored.png)
+
+### Volunteer view — claim / resolve flow
+![Volunteer claim and resolve flow](volunteer-feed.png)
+
+### Coordinator aggregate stats dashboard
+![Coordinator stats dashboard](coordinator-stats.png)
+
+### Triage decision tree + survival checklist
+![Triage decision tree and checklist](triage-tab.png)
+
+### Offer Help
+![Offer Help modal](Offer-help.png)
+
+### Low-bandwidth / battery-saver mode
+![Low-bandwidth battery-saver mode](low-bandwidth-mode.png)
 
 ## 3. Key Features
 
