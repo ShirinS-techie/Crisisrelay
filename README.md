@@ -17,8 +17,6 @@ Flood. Wildfire. Power outage. In the first hours of any of these, the two thing
 7. [Tech Stack](#7-tech-stack)
 8. [Project Structure](#8-project-structure)
 9. [Getting Started](#9-getting-started)
-10. [Demo Script — What to Try](#10-demo-script--what-to-try)
-11. [Roadmap](#11-roadmap)
 
 ---
 
