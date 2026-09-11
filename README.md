@@ -36,49 +36,42 @@ All three share one dashboard, switchable instantly, so the same demo (or the sa
 
 ## 2. Screenshots
 
-> _Add screenshots to `docs/screenshots/` and reference them below — swap the placeholder paths for your actual filenames._
-
 | View | Screenshot |
 |---|---|
-| Main dashboard — map + live SOS feed (Citizen view) | `docs/screenshots/dashboard-citizen.png` |
-| Broadcast SOS modal, with risk score result | `docs/screenshots/sos-modal-scored.png` |
-| Volunteer view — claim / resolve flow | `docs/screenshots/volunteer-feed.png` |
-| Coordinator aggregate stats dashboard | `docs/screenshots/coordinator-stats.png` |
-| Triage decision tree + survival checklist | `docs/screenshots/triage-tab.png` |
-| Offer Help | `docs/screenshots/wildfire-mode.png` |
-| Low-bandwidth / battery-saver mode | `docs/screenshots/low-bandwidth-mode.png` |
-
-```md
-![Dashboard – Citizen view](docs/screenshots/dashboard-citizen.png)
-![SOS modal with risk score](docs/screenshots/sos-modal-scored.png)
-```
+| Main dashboard — map + live SOS feed (Citizen view) | `dashboard-citizen.png` |
+| Broadcast SOS modal, with risk score result | `sos-modal-scored.png` |
+| Volunteer view — claim / resolve flow | `volunteer-feed.png` |
+| Coordinator aggregate stats dashboard | `coordinator-stats.png` |
+| Triage decision tree + survival checklist | `triage-tab.png` |
+| Offer Help | `Offer-help.png` |
+| Low-bandwidth / battery-saver mode | `low-bandwidth-mode.png` |
 
 ---
 
 ## 3. Key Features
 
-### 🔀 Zero-Friction Role Switcher
+### Zero-Friction Role Switcher
 Swap between **Citizen**, **Volunteer**, and **Relief Coordinator** from the top bar with no login screen. Each role instantly gets a different set of capabilities and a different lens on the same live data:
 - **Citizen** — broadcast an SOS, offer supplies, track request status.
 - **Volunteer** — see the live SOS feed, claim requests, advance their status.
 - **Coordinator** — aggregate stats, unresolved counts, shelter-capacity view.
 
-### 🌊🔥⚡ Multi-Crisis Modes
+### Multi-Crisis Modes
 One header toggle switches the entire app between **Flood**, **Wildfire**, and **Power Outage** modes. Switching crisis type live-updates the accent color (cyan / amber / yellow), the map's hazard overlays, the survival checklist, and the triage decision tree — so the guidance shown is always specific to the crisis at hand, not generic advice.
 
-### 🆘 SOS Beacon & Resource Matching
+### SOS Beacon & Resource Matching
 - **Broadcast SOS** — type of need (Water, Medical, Rescue, Shelter), location, self-reported urgency, and a free-text note.
 - **Offer Help / Supplies** — anyone can log what they have available (generator, boat, extra food, etc.) and where to pick it up.
 - **Full resolution lifecycle** — every request moves through `Unverified → Claimed → In Progress → Resolved`, with one-tap actions for volunteers, and the map/feed update immediately.
 - Requests render as color-coded beacons on an interactive map **and** in a filterable sidebar feed.
 
-### 🩹 Offline Triage & Decision Tree
+### Offline Triage & Decision Tree
 A step-by-step, yes/no first-aid and survival flowchart tailored to the active crisis mode, plus a persistent survival checklist. Checklist progress is saved via `localStorage`, so it survives a page refresh — useful if the tab reloads mid-crisis.
 
-### 🔋 Low-Bandwidth / Battery-Saver Mode
+### Low-Bandwidth / Battery-Saver Mode
 One click strips glassmorphism, background imagery, blurs, and the map itself, dropping into a high-contrast, text-only monochrome layout — built for the moment your phone is at 8% and your connection is one bar of 2G.
 
-### 🌱 Rich Seeded Demo Data
+### Rich Seeded Demo Data
 Loads with 5 varied SOS beacons (spanning every status), 3 shelters at different capacity levels, 2 active resource offers, and live hazard boundary points — so the dashboard feels populated and real the instant it opens, no setup required.
 
 ---
