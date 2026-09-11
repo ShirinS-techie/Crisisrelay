@@ -47,7 +47,7 @@ All three share one dashboard, switchable instantly, so the same demo (or the sa
 | Volunteer view — claim / resolve flow | `docs/screenshots/volunteer-feed.png` |
 | Coordinator aggregate stats dashboard | `docs/screenshots/coordinator-stats.png` |
 | Triage decision tree + survival checklist | `docs/screenshots/triage-tab.png` |
-| Wildfire mode (accent + hazard overlay change) | `docs/screenshots/wildfire-mode.png` |
+| Offer Help | `docs/screenshots/wildfire-mode.png` |
 | Low-bandwidth / battery-saver mode | `docs/screenshots/low-bandwidth-mode.png` |
 
 ```md
